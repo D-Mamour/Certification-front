@@ -1,0 +1,54 @@
+<section id="accueil" class="relative overflow-hidden bg-[#0B1120] text-white">
+  <div class="pointer-events-none absolute -left-24 top-28 h-80 w-80 rounded-lg bg-[#0284C7]/15 blur-3xl"></div>
+  <div class="pointer-events-none absolute right-0 top-0 h-96 w-96 rounded-lg bg-[#D97706]/10 blur-3xl"></div>
+
+  <nav class="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-5 py-6 sm:px-8 lg:px-10">
+    <a href="#accueil" class="flex items-center gap-3" aria-label="Chantial - Accueil">
+      <span class="grid h-11 w-11 place-items-center rounded-lg bg-[#0284C7] text-lg font-black shadow-lg shadow-sky-950/40">C</span>
+      <span class="text-lg font-extrabold tracking-[.12em]">CHANTIAL</span>
+    </a>
+    <div class="hidden items-center gap-8 text-sm font-medium text-slate-300 md:flex">
+      <a href="#solution" class="hover:text-white">Solution</a>
+      <a href="#fonctionnement" class="hover:text-white">Fonctionnement</a>
+      <a href="#acteurs" class="hover:text-white">Pour qui ?</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a routerLink="/connexion" class="hidden text-sm font-semibold text-slate-200 hover:text-white sm:block">Connexion</a>
+      <a routerLink="/inscription" class="rounded-lg bg-[#0284C7] px-4 py-2.5 text-sm font-bold text-white hover:bg-sky-600">Commencer</a>
+    </div>
+  </nav>
+
+  <div class="relative mx-auto grid min-h-[690px] max-w-7xl items-center gap-12 px-5 pb-20 pt-10 sm:px-8 lg:grid-cols-[.9fr_1.1fr] lg:px-10 lg:pb-28 lg:pt-16">
+    <div class="relative z-10 max-w-xl">
+      <p class="mb-5 inline-flex items-center gap-2 rounded-lg border border-sky-400/20 bg-sky-400/10 px-4 py-2 text-xs font-bold uppercase tracking-[.18em] text-sky-300">
+        <span class="h-2 w-2 rounded-lg bg-[#D97706]"></span> Suivi intelligent des projets BTP
+      </p>
+      <h1 class="text-4xl font-black leading-[1.04] tracking-[-.035em] sm:text-6xl lg:text-7xl">
+        Votre chantier.<br />
+        <span class="text-[#38BDF8]">Enfin transparent.</span>
+      </h1>
+      <p class="mt-7 max-w-lg text-base leading-7 text-slate-300 sm:text-lg">
+        Centralisez l'avancement, les dépenses et les justificatifs. Chantial transforme les informations du chantier en une vision claire, traçable et exploitable.
+      </p>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a routerLink="/inscription" class="rounded-lg bg-[#0284C7] px-6 py-3.5 text-sm font-bold text-white shadow-xl shadow-sky-950/30 hover:bg-sky-600">Créer un compte</a>
+        <a href="#solution" class="rounded-lg border border-white/15 bg-white/5 px-6 py-3.5 text-sm font-bold text-white hover:bg-white/10">Découvrir Chantial</a>
+      </div>
+      <div class="mt-10 grid max-w-lg grid-cols-2 gap-3 text-sm text-slate-400 sm:grid-cols-4">
+        <span>OCR factures</span><span>Suivi budget</span><span>Analyse IA</span><span>Traçabilité</span>
+      </div>
+    </div>
+
+    <!-- Composition visuelle inspirée de la référence : images verticales arrondies. -->
+    <div class="relative mx-auto hidden h-[560px] w-full max-w-[620px] lg:block" aria-label="Aperçu visuel de chantiers suivis avec Chantial">
+      <div class="absolute left-[2%] top-[8%] h-[310px] w-[24%] overflow-hidden rounded-lg border border-white/10 bg-slate-800 shadow-2xl"><img src="images/elevations.jpg" alt="Élévation d'un bâtiment en construction" class="h-full w-full object-cover" /></div>
+      <div class="absolute left-[28%] top-[22%] h-[330px] w-[25%] overflow-hidden rounded-lg border border-white/10 bg-slate-800 shadow-2xl"><img src="images/fondation.jpg" alt="Fondations d'un chantier" class="h-full w-full object-cover" /></div>
+      <div class="absolute right-[18%] top-[3%] h-[280px] w-[24%] overflow-hidden rounded-lg border border-white/10 bg-slate-800 shadow-2xl"><img src="images/entrepreneur.jpg" alt="Entrepreneur sur un projet" class="h-full w-full object-cover" /></div>
+      <div class="absolute bottom-[2%] right-[3%] h-[300px] w-[25%] overflow-hidden rounded-lg border border-white/10 bg-slate-800 shadow-2xl"><img src="images/terminer.jpg" alt="Projet de construction terminé" class="h-full w-full object-cover" /></div>
+      <div class="absolute bottom-[3%] left-[7%] h-[190px] w-[28%] overflow-hidden rounded-lg border border-white/10 bg-slate-800 shadow-2xl"><img src="images/pare.jpg" alt="Finitions d'un projet immobilier" class="h-full w-full object-cover" /></div>
+      <div class="absolute right-[28%] top-[44%] rounded-lg border border-white/10 bg-[#111827]/90 p-4 shadow-2xl backdrop-blur-xl">
+        <p class="text-xs text-slate-400">Budget suivi</p><p class="mt-1 text-xl font-extrabold text-white">100% traçable</p><div class="mt-3 h-1.5 w-36 overflow-hidden rounded-lg bg-white/10"><div class="h-full w-4/5 rounded-lg bg-[#0284C7]"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
